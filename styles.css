@@ -1,0 +1,60 @@
+body{
+    /*To selecte a background image*/
+    background-image:url('home.jpg');
+}
+.header{
+    /* To modify the header*/
+    text-align: center;
+    background-color: black;
+    color: green;
+}
+a:link{
+    color:green;
+}
+.section{
+    text-align: center;
+    display:inline-block;
+    padding: 20px;
+    font-size:20px;
+}
+
+a{
+    color: red;
+    text-decoration:none;
+    text-align:center;
+}
+a:link{
+    color:red;
+    text-decoration:none;
+    text-align:center;
+}
+a:hover{
+    color:hotpink;
+    text-decoration:underline;
+}
+figure{
+    text-align:center;
+}
+figcaption{
+    /*To add text with image*/
+    text-align:center;
+    background-color:brown;
+    color:blue;
+}
+p,ol,li{
+    text-align:center;
+    color:yellow;
+    size:small;
+}
+p em {
+    color:brown;
+}
+#footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    text-align:center;
+    color:black;
+}
+

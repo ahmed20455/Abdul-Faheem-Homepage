@@ -1,0 +1,45 @@
+body{
+    background-image:url('my goals.jpg');
+}
+.header{
+    text-align: center;
+    background-color: black;
+    color: orange;
+}
+a:link{
+    color:green;
+}
+.section{
+    text-align: center;
+    display:inline-block;
+    padding: 20px;
+    font-size:20px;
+}
+
+a{
+    color: red;
+    text-decoration:none;
+    text-align:center;
+}
+a:link{
+    color:red;
+    text-decoration:none;
+    text-align:center;
+}
+a:hover{
+    color:hotpink;
+    text-decoration:underline;
+}
+#pp{
+    text-align:center;
+    font-size: 20px;
+    color: brown;
+}
+#footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    text-align:center;
+    color:black;
+}

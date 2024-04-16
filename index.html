@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                document.querySelector('form').addEventListener('submit',function(event) {
+                    let name = document.querySelector('#name').value;
+                    alert('Hello, ' + name);
+                    event.preventDefault();
+            });
+        });
+            </script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Faheem Webpage</title>
+
+    </head>
+    <body>
+        <div class='header'>
+            <h1>Abdul Faheem's Homepage </h1>
+        </div>
+        </div>
+            <div class="container">
+                <div class="section">
+                    <a href='index.html'><h2>Home</h2></a>
+                </div>
+                <div class="section">
+                    <a href='about.html'><h2>About</h2></a>
+                </div>
+                <div class="section">
+                    <a href='mygoals.html'><h2>My Goals</h2></a>
+                </div>
+                <div class="section">
+                    <a href='myinterest.html'><h2>My Interests</h2></a>
+                </div>
+                <form >
+                    <input type="text" placeholder="name" id="name">
+                    <button type="submit">hello</button>
+                </form>
+                <p>Hello everyone, welcome to my homepage.Here I have create a webpage that introduces myself. </p>
+                <br>
+                <p>I have categorised this page into 4 sub-categories:</p>
+                <ul>
+                    <li><b>Home</b> - The Homepage </li>
+                    <li><b>About</b> - In this section, I gave a brief introduction of myself.</li>
+                    <li><b>My Goals</b> - In this section, I listed the goals I want to achieve in future.</li>
+                    <li><b>My Interests</b> - In this section, I mentioned about my interests.</li>
+                </ul>
+                <p>Take a look on my homepage</p>
+            <figure><img src="homepagepic.jpg" alt="simple photo"></figure>
+            <figcaption> <em>Thank you</em></figcaption>
+            <div id="footer"><h4>Copyright &#169 2023 AbulFaheem</h4>
+            </div>
+    </body>
+</html>

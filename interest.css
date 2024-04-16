@@ -1,0 +1,49 @@
+body{
+    background-image:url('int.jpg');
+}
+.header{
+    text-align: center;
+    background-color: black;
+    color: blue;
+}
+a:link{
+    color:green;
+}
+.section{
+    text-align: center;
+    display:inline-block;
+    padding: 20px;
+    font-size:20px;
+}
+
+a{
+    color: rgb(71, 68, 68);
+    text-decoration:none;
+    text-align:center;
+}
+a:link{
+    color:red;
+    text-decoration:none;
+    text-align:center;
+}
+a:hover{
+    color:hotpink;
+    text-decoration:underline;
+}
+.ss{
+    text-align:center;
+    font-size:20px;
+    color:black;
+}
+h3{
+    color:yellow;
+    text-align:center;
+}
+#footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    text-align:center;
+    color:black;
+}

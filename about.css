@@ -1,0 +1,45 @@
+body{
+    background-image:url('about.jpg');
+}
+.header{
+    text-align: center;
+    background-color: black;
+    color: violet;
+}
+a:link{
+    color:green;
+}
+.section{
+    text-align: center;
+    display:inline-block;
+    padding: 20px;
+    font-size:20px;
+}
+
+a{
+    color: red;
+    text-decoration:none;
+    text-align:center;
+}
+a:link{
+    color:red;
+    text-decoration:none;
+    text-align:center;
+}
+a:hover{
+    color:hotpink;
+    text-decoration:underline;
+}
+#start{
+    text-align:center;
+    font-size:22px;
+    color: yellow;
+}
+#footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    text-align:center;
+    color:black;
+}

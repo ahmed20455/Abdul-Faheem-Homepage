@@ -29,4 +29,3 @@ project/
 │ └── styles.css # CSS stylesheets
 └── js/
 └── script.js # JavaScript file for adding interactivity
-
